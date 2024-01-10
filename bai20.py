@@ -3,7 +3,7 @@ month = int(input("Nhập vào 1 tháng bất kỳ trong năm: "))
 
 if month == 2:
 	year = int(input("Nhập vào 1 năm bất kỳ: "))
-	if (month % 400 == 0) or  (month % 4 == 0 and month % 100 != 0):
+	if (year % 400 == 0) or  (year % 4 == 0 and year % 100 != 0):
 		print("Tháng 2 có 29 ngày.")
 	else:
 		print("Tháng 2 có 28 ngày.")

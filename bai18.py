@@ -1,4 +1,4 @@
-n = int(input("Nhập vào 1 số có 2 chữ số bất kì: "))
+n = int(input("Nhập vào 1 số có 3 chữ số bất kì: "))
 
 dv = n % 10
 n //= 10

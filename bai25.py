@@ -1,8 +1,8 @@
-n = int(input("Nhập vào 1 số nguyên bất kỳ: "))
+a = int(input("Nhập vào a = "))
+b = int(input("Nhập vào b = "))
 
-if (n < 0):
-	print(n, "là số âm")
-elif ( n == 0 ):
-	print(n, "là số không phải là số nguyên dương cũng không phải là số nguyên âm.")
+if ( a % 2 == 0 and b % 2 == 0 ) or (a % 2 != 0 and b % 2 != 0):
+	print("Dung")
 else:
-	print(n, "là số nguyên dương")
+	print("Sai")
+	 

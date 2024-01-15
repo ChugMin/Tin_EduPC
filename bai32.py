@@ -1,0 +1,8 @@
+from math import *
+
+n = int(input("Nhập số n: "))
+s = 0
+for i in range(1, n +1) :
+    if (i % 2 == 0):
+        s += i
+print("Tổng các số chẵn từ 1 đến", n, "là:", s) # hay  round( ( n / 2 ) * (n / 2 + 1) )

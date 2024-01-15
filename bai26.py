@@ -1,5 +1,3 @@
-
-
 n = int(input("Nhập vào 1 số nguyên bất kỳ: "))
 
 if (n < 0):

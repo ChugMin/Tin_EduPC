@@ -11,6 +11,12 @@ def snt(n):
             break
     return flag
 
-for i in range(3, 1000):
-    if snt(i)  == 1 and snt(i + 2)==1:
-        print("(", i, ",", i + 2, ")")
+n =  int(input("Nhập 1 số n: "))
+
+dem = 1
+for i in range(2, n + 1):
+    if snt(i) == 1:
+        print(i, end = ' ')
+        if dem % 15 == 0:
+            print()
+        dem += 1
